@@ -1,0 +1,53 @@
+.card {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 64px;
+
+  &[data-position="top"] {
+    align-items: flex-start;
+  }
+
+  &[data-position="center"] {
+    align-items: center;
+  }
+
+  .title {
+    font-weight: 600;
+    line-height: 32px;
+    color: var(--color-textSecondary);
+    font-size: 24px;
+
+    &[data-fontsize="exchange"] {
+      font-size: 20px;
+    }
+
+    &[data-fontsize="easy"] {
+      font-size: 24px;
+    }
+
+    &[data-fontsize="needhelp"] {
+      font-size: 20px;
+    }
+  }
+
+
+  .description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-textSecondary);
+
+    &[data-fontsize="needhelp"] {
+      font-size: 14px;
+    }
+  }
+
+  .button {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C99400;
+    margin-top: 20px;
+    display: block;
+  }
+}
