@@ -1,0 +1,12 @@
+.contain {
+  display: flex;
+  justify-content: space-between;
+}
+.contain .left {
+  width: 50%;
+}
+.contain .right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=index.module.css.map */

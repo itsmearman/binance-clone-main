@@ -1,0 +1,57 @@
+.card {
+  flex: 0 0 23%;
+  margin-bottom: 24px;
+  border-radius: 16px;
+  border: 2px solid transparent;
+  background-color: var(--color-bg3);
+  padding: 24px 16px;
+  cursor: pointer;
+}
+.card:hover {
+  border: 2px solid #FCD535;
+  background-color: var(--color-bg1);
+}
+.card:hover .bottom .icon_box {
+  background-color: #FCD535;
+}
+.card .token_name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-textPrimary);
+}
+.card .range {
+  color: rgb(3, 166, 109);
+  font-weight: 500 !important;
+  font-size: 24px;
+  line-height: 32px;
+}
+.card .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.card .bottom .left {
+  display: flex;
+  align-items: center;
+}
+.card .bottom .left .image {
+  border-radius: 100%;
+  margin-right: 8px;
+}
+.card .bottom .left .symbol {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-textPrimary);
+}
+.card .bottom .icon_box {
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-textGray);
+  width: 32px;
+  height: 32px;
+}/*# sourceMappingURL=index.module.css.map */

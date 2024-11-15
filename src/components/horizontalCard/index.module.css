@@ -1,0 +1,43 @@
+.card {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 64px;
+}
+.card[data-position=top] {
+  align-items: flex-start;
+}
+.card[data-position=center] {
+  align-items: center;
+}
+.card .title {
+  font-weight: 600;
+  line-height: 32px;
+  color: var(--color-textSecondary);
+  font-size: 24px;
+}
+.card .title[data-fontsize=exchange] {
+  font-size: 20px;
+}
+.card .title[data-fontsize=easy] {
+  font-size: 24px;
+}
+.card .title[data-fontsize=needhelp] {
+  font-size: 20px;
+}
+.card .description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-textSecondary);
+}
+.card .description[data-fontsize=needhelp] {
+  font-size: 14px;
+}
+.card .button {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C99400;
+  margin-top: 20px;
+  display: block;
+}/*# sourceMappingURL=index.module.css.map */

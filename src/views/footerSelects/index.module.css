@@ -1,0 +1,19 @@
+.contain {
+  position: relative;
+}
+.contain .language {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  margin-top: 20px;
+}
+.contain .language:hover .text {
+  color: #FCD535;
+}
+.contain .language .text {
+  margin-left: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+}/*# sourceMappingURL=index.module.css.map */

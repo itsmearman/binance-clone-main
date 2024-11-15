@@ -21,7 +21,7 @@ import DownloadSection from './files/images/download-section.webp'
 import CustomerSupport from './files/images/cs.svg'
 import Community from './files/images/community.svg'
 import Blog from './files/images/blog.svg'
-import Logo from './files/images/logo.svg'
+import Logo from './files/images/logo.png'
 import BinanceQr from './files/images/binanceQr.svg'
 
 // Coins

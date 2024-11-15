@@ -1,0 +1,9 @@
+.banner {
+  margin-top: 40px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.banner .images {
+  width: 100%;
+  height: 300px;
+}/*# sourceMappingURL=index.module.css.map */

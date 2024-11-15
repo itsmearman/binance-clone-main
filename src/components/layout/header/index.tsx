@@ -19,7 +19,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.left}>
         <div className={styles.logo}>
-          <Image src={Images.Logo} alt='Logo' width={120} height={24} />
+          <Image src={Images.Logo} alt='Logo' width={120} height={64} />
         </div>
         <NavigationMenus />
 
