@@ -1,6 +1,6 @@
 import { AppLayout, Container } from '@/components'
 import { CryptoExchange, DownloadSelects, EasySteps, ExploreEndless, Hero, HomeFeed, NeedHelp, PopularCryptocurrencies, StartEarning, TokenRewards } from '@/views'
-import HomeSlider from '@/views/homeSlider'
+import HomeSlider from '@/views/home/homeSlider'
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       <CryptoExchange />
       <DownloadSelects />
       <NeedHelp />
-      <StartEarning />
+      <StartEarning />  
     </AppLayout>
   )
 }
