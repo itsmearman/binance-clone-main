@@ -1,0 +1,31 @@
+.contain {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.contain .feeds {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.contain .community_card {
+  min-width: 328px;
+  background-color: var(--color-bg3);
+  overflow: hidden;
+  border-radius: 16px;
+  margin: 24px 0px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.contain .community_card .title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--color-textPrimary);
+  margin: 8px 0px 16px;
+}
+.contain .community_card .in {
+  margin: 16px;
+}/*# sourceMappingURL=index.module.css.map */

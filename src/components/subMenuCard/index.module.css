@@ -1,0 +1,57 @@
+.card {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 32px;
+  width: 300px;
+  cursor: pointer;
+}
+.card:hover .title .arrow_icon {
+  margin-left: 10px;
+  visibility: visible;
+  transition: 0.5s all;
+}
+.card[data-position=top] {
+  align-items: flex-start;
+}
+.card[data-position=center] {
+  align-items: center;
+}
+.card .sub_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 40px;
+  min-height: 40px;
+  background-color: var(--color-bg3);
+  margin-inline-end: 16px;
+  border-radius: 50%;
+}
+.card .title {
+  color: var(--color-textPrimary);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+}
+.card .title .arrow_icon {
+  margin-left: 5px;
+  visibility: hidden;
+  transition: 0.5s all;
+}
+
+.description {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--color-textSecondary);
+}
+
+.button {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C99400;
+  margin-top: 20px;
+  display: block;
+}/*# sourceMappingURL=index.module.css.map */

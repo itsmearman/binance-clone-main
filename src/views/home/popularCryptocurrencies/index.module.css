@@ -1,0 +1,28 @@
+.contain h2 {
+  margin-top: 30px;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+}
+.cell .coin_name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-textPrimary);
+  margin-right: 8px;
+  margin-left: 16px;
+}
+.cell .symbol {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-textThird);
+}
+.cell .price {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-textPrimary);
+}/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,48 @@
+.menu {
+  margin-left: 16px;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+.menu ul li {
+  padding: 24px 0px;
+  margin-right: 24px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu ul li:hover .sub_menu {
+  display: block;
+}
+.menu ul li:hover::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  height: 4px;
+  width: 24px;
+  background-color: #FCD535;
+}
+.menu ul li a {
+  color: var(--color-textPrimary);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.menu ul li .sub_menu {
+  display: none;
+  position: absolute;
+  z-index: 1300;
+  top: 70px;
+  padding: 24px 24px 0px 24px;
+  border-radius: 0px 0px 8px 8px;
+  background: var(--color-popupBg, #fff);
+  box-shadow: 0px 8px 8px 0px rgba(24, 26, 32, 0.08);
+}
+.menu ul li .sub_menu .group_area {
+  display: flex;
+}
+.menu ul li .sub_menu .group_area .group {
+  margin-right: 12px;
+}/*# sourceMappingURL=index.module.css.map */
